@@ -1,0 +1,62 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .success-banner {
+    display: flex;
+    align-items: center;
+    background-color: #dff0d8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #d0e9c6;
+  }
+  
+  .success-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .success-message {
+    font-size: 16px;
+    color: #3c763d;
+    margin: 0;
+  }
+  
+  .dashboard-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .donor-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .donor-card p {
+    margin: 5px 0;
+  }
+  
+  .donor-card h2, .donor-card h3 {
+    margin-top: 0;
+  }
+  
+  .download-pdf-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-pdf-button:hover {
+    background-color: #0056b3;
+  }
+  

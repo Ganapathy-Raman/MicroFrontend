@@ -1,0 +1,89 @@
+.add-organ-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.add-organ-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-organ-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+
+.add-organ-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-organ-group {
+  margin-bottom: 16px;
+}
+
+.add-organ-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.add-organ-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.add-organ-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.add-organ-error {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.add-organ-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-organ-submit:hover {
+  background-color: #0056b3;
+}
+
+.add-organ-alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #d9534f;
+  font-size: 16px;
+  text-align: center;
+}

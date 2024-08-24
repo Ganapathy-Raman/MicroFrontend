@@ -1,0 +1,158 @@
+.add-donor-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.add-donor-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-donor-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+
+.add-donor-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-donor-group {
+  margin-bottom: 16px;
+}
+
+.add-donor-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.add-donor-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.add-donor-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.add-donor-error {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.add-donor-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-donor-submit:hover {
+  background-color: #0056b3;
+}
+
+.add-donor-alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #d9534f;
+  font-size: 16px;
+  text-align: center;
+}
+
+.add-donor-group {
+  margin-bottom: 1em;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.radio-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-custom {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #007BFF;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.radio-custom::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #007BFF;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.radio-input:checked + .radio-custom::after {
+  opacity: 1;
+}
+
+.radio-label:hover .radio-custom {
+  border-color: #0056b3;
+}
+
+.add-donor-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.add-donor-error {
+  color: red;
+  margin-top: 0.5em;
+}
+

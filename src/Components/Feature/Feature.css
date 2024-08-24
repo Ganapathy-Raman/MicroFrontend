@@ -1,0 +1,25 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.stat {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.charts {
+    display: grid;
+    gap: 1rem;
+}
+
+.bar-chart,
+.pie-chart {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
